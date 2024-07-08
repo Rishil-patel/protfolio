@@ -1,0 +1,24 @@
+.box {
+  /* width: 16%;  */
+  /* height: 200px;  */
+  border-radius: 50%;
+  /* background: radial-gradient(
+    circle,
+    rgba(138, 43, 226, 1) 0%,
+    rgba(75, 0, 130, 1) 100%
+  ); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(2px 4px 59px rgba(75, 0, 130, 1));
+  /* box-shadow: inset 0px 0px 99px 0px #d1cece; */
+}
+
+.person {
+  width: 110px;
+  filter: drop-shadow(5px 5px 53px rgb(177, 94, 255));
+  
+}
+.text {
+  margin-bottom: 140px;
+}
