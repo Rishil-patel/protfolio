@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
         <>
             <Box bgcolor={'#11071F'} >
                 <Header />
-                <Box p={12}  >{children}</Box>
+                <Box p={{ md: 12, xs: 1 }} >{children}</Box>
                 <Footer />
             </Box>
         </>
