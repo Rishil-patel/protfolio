@@ -67,6 +67,7 @@ const theme = createTheme({
     },
     h4: {
       fontSize: "22px",
+      fontFamily: "cursive",
     },
     h3: {
       fontSize: "16px",
@@ -76,6 +77,7 @@ const theme = createTheme({
     },
     h5: {
       fontSize: "18px",
+      fontFamily: "cursive",
       [downTheme.breakpoints.down("md")]: {
         fontSize: "16px",
       },
@@ -103,6 +105,7 @@ const theme = createTheme({
     },
     body1: {
       fontSize: "18px",
+      fontFamily: "cursive",
     },
     body2: {
       fontSize: "14px",
